@@ -1,0 +1,38 @@
+{
+  "ann": "default",
+  "ann_effective": "default-ivf",
+  "artifact": "arguana-mlp-s2",
+  "cell": "arguana--percorpus-mlp--s2--default",
+  "corpus": "arguana",
+  "cuda": {
+    "max_allocated_gb": 1.133,
+    "max_reserved_gb": 1.531
+  },
+  "disk_kb": 71547,
+  "encoder": "lemur arguana-mlp-s2",
+  "encoder_class": "Lemur",
+  "encoder_has_center": true,
+  "faiss_components": null,
+  "faiss_index": "IndexIVFFlat nlist=222 nprobe=14",
+  "index_seconds": 23.15,
+  "metrics": {
+    "P_10": 0.0636,
+    "map_cut_10": 0.33001,
+    "ndcg_cut_10": 0.40235,
+    "recall_10": 0.63597
+  },
+  "n_docs": 8674,
+  "n_queries_scored": 1401,
+  "nprobe_config": 14,
+  "nprobe_used": 14,
+  "pooling_class": "LatePooling",
+  "queries_under_limit": 0,
+  "queries_zero_results": 0,
+  "resolved_center": {
+    "mean_sha256": "66d1609139a39b5514a062cfe531bcd2e1d717791215b627c95f8e6f7ed4e951",
+    "scope": "collection"
+  },
+  "search_seconds": 2.29,
+  "time": "2026-08-23T04:00:41Z",
+  "variant": "default"
+}

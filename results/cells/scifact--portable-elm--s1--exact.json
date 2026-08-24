@@ -1,0 +1,36 @@
+{
+  "ann": "exact",
+  "ann_effective": "exact",
+  "artifact": "portable-elm-s1",
+  "cell": "scifact--portable-elm--s1--exact",
+  "corpus": "scifact",
+  "cuda": {
+    "max_allocated_gb": 1.145,
+    "max_reserved_gb": 1.541
+  },
+  "disk_kb": 41548,
+  "encoder": "lemur portable-elm-s1",
+  "encoder_class": "Lemur",
+  "encoder_has_center": true,
+  "faiss_components": "IDMap,Flat",
+  "faiss_index": "IndexIDMap(IndexFlat)",
+  "index_seconds": 15.05,
+  "metrics": {
+    "P_10": 0.05633,
+    "map_cut_10": 0.33337,
+    "ndcg_cut_10": 0.37682,
+    "recall_10": 0.49733
+  },
+  "n_docs": 5183,
+  "n_queries_scored": 300,
+  "pooling_class": "LatePooling",
+  "queries_under_limit": 0,
+  "queries_zero_results": 0,
+  "resolved_center": {
+    "mean_sha256": "3256d6592c3a7b2a3e94b23fd041ca7292ded7719dc90a565be2ebfb34a54807",
+    "scope": "collection"
+  },
+  "search_seconds": 0.59,
+  "time": "2026-08-23T03:13:30Z",
+  "variant": "default"
+}

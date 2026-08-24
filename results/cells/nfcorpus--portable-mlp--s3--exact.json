@@ -1,0 +1,38 @@
+{
+  "ann": "exact",
+  "ann_effective": "exact",
+  "artifact": "portable-mlp-s3",
+  "cell": "nfcorpus--portable-mlp--s3--exact",
+  "corpus": "nfcorpus",
+  "cuda": {
+    "max_allocated_gb": 1.144,
+    "max_reserved_gb": 1.541
+  },
+  "disk_kb": 29124,
+  "encoder": "lemur portable-mlp-s3",
+  "encoder_class": "Lemur",
+  "encoder_has_center": true,
+  "faiss_components": "IDMap,Flat",
+  "faiss_index": "IndexIDMap(IndexFlat)",
+  "index_seconds": 10.91,
+  "metrics": {
+    "P_10": 0.17183,
+    "map_cut_10": 0.07843,
+    "ndcg_cut_10": 0.23686,
+    "recall_10": 0.11526
+  },
+  "n_docs": 3633,
+  "n_queries_scored": 323,
+  "nprobe_config": 6,
+  "nprobe_used": null,
+  "pooling_class": "LatePooling",
+  "queries_under_limit": 0,
+  "queries_zero_results": 0,
+  "resolved_center": {
+    "mean_sha256": "3256d6592c3a7b2a3e94b23fd041ca7292ded7719dc90a565be2ebfb34a54807",
+    "scope": "collection"
+  },
+  "search_seconds": 0.22,
+  "time": "2026-08-23T04:15:11Z",
+  "variant": "default"
+}

@@ -1,0 +1,73 @@
+{
+  "constituents": {
+    "fever": {
+      "drawn": 1171,
+      "empty_dropped": 0,
+      "quota": 1171,
+      "shards": 6,
+      "total_rows": 5384865
+    },
+    "fiqa": {
+      "drawn": 1171,
+      "empty_dropped": 0,
+      "quota": 1171,
+      "shards": 1,
+      "total_rows": 57599
+    },
+    "hotpotqa": {
+      "drawn": 1170,
+      "empty_dropped": 0,
+      "quota": 1170,
+      "shards": 3,
+      "total_rows": 5220635
+    },
+    "msmarco": {
+      "drawn": 1170,
+      "empty_dropped": 0,
+      "quota": 1170,
+      "shards": 7,
+      "total_rows": 8841661
+    },
+    "nq": {
+      "drawn": 1170,
+      "empty_dropped": 0,
+      "quota": 1170,
+      "shards": 7,
+      "total_rows": 10120660
+    },
+    "squadv2": {
+      "drawn": 1170,
+      "empty_dropped": 0,
+      "quota": 1170,
+      "shards": 1,
+      "total_rows": 19029
+    },
+    "trivia": {
+      "drawn": 1170,
+      "empty_dropped": 0,
+      "quota": 1170,
+      "shards": 27,
+      "total_rows": 20970784
+    }
+  },
+  "drawn_total": 8192,
+  "ids_sha256": "f3727b68ef7307452c41c4a66dc47a27d4aa33f076a7a4eabada40705ab108df",
+  "method": "stratified-equal-per-constituent; uniform row sample within constituent over all shards (parquet row-group metadata); per-constituent seed = sha512(f'{seed}:{constituent}')",
+  "name": "draw8192",
+  "near_duplicate_audit": {
+    "exact_duplicate_docs": 0,
+    "exact_duplicate_groups": 0,
+    "near_duplicate_pairs_j08": 1,
+    "near_pairs": [
+      [
+        2787,
+        2788,
+        0.8
+      ]
+    ]
+  },
+  "repo": "lightonai/embeddings-fine-tuning",
+  "revision": "1ca463331ed637d25c1058567e932e0d3bad2983",
+  "seed": 20260823,
+  "total_requested": 8192
+}

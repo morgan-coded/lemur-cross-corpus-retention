@@ -1,0 +1,10 @@
+{
+  "corpus": "arguana",
+  "mean_norm": 0.46924200654029846,
+  "mean_sha256": "4aca0133fa5001e58ebc351343384c26d9d788a385fb17d714148917b6b7d8ec",
+  "n_docs": 8674,
+  "n_tokens": 1335254,
+  "path": "work/means/arguana.safetensors",
+  "time": "2026-08-23T02:58:53Z",
+  "uncentered_encode": true
+}

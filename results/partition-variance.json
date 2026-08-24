@@ -1,0 +1,15 @@
+{
+  "ann": "IVF132",
+  "corpus": "scifact",
+  "draws": 40,
+  "encoder": "ColBERTv2",
+  "lemur_ndcg_at_10_sd_max": 0.01892,
+  "lemur_ndcg_at_10_sd_min": 0.01022,
+  "muvera_ndcg_at_10_sd_max": 0.01803,
+  "muvera_ndcg_at_10_sd_min": 0.00345,
+  "public_thread": "https://huggingface.co/posts/davidmezzetti/477658488813407",
+  "rounded_single_partition_scale": "0.01-0.02 nDCG at 10",
+  "scope_note": "Separate public partition-grid measurement used only to calibrate the ANN caveat.",
+  "worst_case_difference_scale": 0.02614,
+  "worst_case_difference_scale_note": "sqrt(lemur_sd_max^2 + muvera_sd_max^2) = sqrt(0.01892^2 + 0.01803^2); the reading scale for a difference of two independent single-partition numbers"
+}

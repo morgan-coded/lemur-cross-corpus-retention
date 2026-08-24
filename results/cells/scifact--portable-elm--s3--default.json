@@ -1,0 +1,38 @@
+{
+  "ann": "default",
+  "ann_effective": "default-ivf",
+  "artifact": "portable-elm-s3",
+  "cell": "scifact--portable-elm--s3--default",
+  "corpus": "scifact",
+  "cuda": {
+    "max_allocated_gb": 1.145,
+    "max_reserved_gb": 1.541
+  },
+  "disk_kb": 42605,
+  "encoder": "lemur portable-elm-s3",
+  "encoder_class": "Lemur",
+  "encoder_has_center": true,
+  "faiss_components": null,
+  "faiss_index": "IndexIVFFlat nlist=132 nprobe=8",
+  "index_seconds": 15.53,
+  "metrics": {
+    "P_10": 0.03267,
+    "map_cut_10": 0.19046,
+    "ndcg_cut_10": 0.21527,
+    "recall_10": 0.27967
+  },
+  "n_docs": 5183,
+  "n_queries_scored": 300,
+  "nprobe_config": 8,
+  "nprobe_used": 8,
+  "pooling_class": "LatePooling",
+  "queries_under_limit": 0,
+  "queries_zero_results": 0,
+  "resolved_center": {
+    "mean_sha256": "3256d6592c3a7b2a3e94b23fd041ca7292ded7719dc90a565be2ebfb34a54807",
+    "scope": "collection"
+  },
+  "search_seconds": 0.24,
+  "time": "2026-08-23T04:23:52Z",
+  "variant": "default"
+}

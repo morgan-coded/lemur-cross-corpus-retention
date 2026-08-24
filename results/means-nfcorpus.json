@@ -1,0 +1,10 @@
+{
+  "corpus": "nfcorpus",
+  "mean_norm": 0.48115473985671997,
+  "mean_sha256": "4f596304f044b519302ba19b789b7f3cfb2265a733300296a93c0f6b7191dc2c",
+  "n_docs": 3633,
+  "n_tokens": 641726,
+  "path": "work/means/nfcorpus.safetensors",
+  "time": "2026-08-23T02:58:03Z",
+  "uncentered_encode": true
+}

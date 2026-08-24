@@ -1,0 +1,35 @@
+{
+  "ann": "default",
+  "ann_effective": "default-ivf",
+  "artifact": "muvera:20,2,32",
+  "cell": "scifact--muvera-20,2,32--default",
+  "corpus": "scifact",
+  "cuda": {
+    "max_allocated_gb": 0.648,
+    "max_reserved_gb": 0.81
+  },
+  "disk_kb": 53235,
+  "encoder": "muvera r20 h2 p32 = 2560 dims",
+  "encoder_class": "Muvera",
+  "encoder_has_center": false,
+  "faiss_components": null,
+  "faiss_index": "IndexIVFFlat nlist=132 nprobe=8",
+  "index_seconds": 32.64,
+  "metrics": {
+    "P_10": 0.04067,
+    "map_cut_10": 0.2654,
+    "ndcg_cut_10": 0.29001,
+    "recall_10": 0.34928
+  },
+  "n_docs": 5183,
+  "n_queries_scored": 300,
+  "nprobe_config": 8,
+  "nprobe_used": 8,
+  "pooling_class": "LatePooling",
+  "queries_under_limit": 0,
+  "queries_zero_results": 0,
+  "resolved_center": null,
+  "search_seconds": 0.31,
+  "time": "2026-08-23T04:58:50Z",
+  "variant": "default"
+}

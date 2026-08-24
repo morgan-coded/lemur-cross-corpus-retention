@@ -1,0 +1,13 @@
+{
+  "colbert_revision": "c1e84128e85ef755c096a95bdb06b47793b13acf",
+  "cuda": true,
+  "faiss": "1.14.3",
+  "hardware_class": "single consumer GPU",
+  "lighton_repository": "lightonai/embeddings-fine-tuning",
+  "lighton_revision": "1ca463331ed637d25c1058567e932e0d3bad2983",
+  "numpy": "2.5.1",
+  "python": "3.14.5",
+  "pytrec_eval": "0.5.10",
+  "torch": "2.13.0+cu130",
+  "txtai_revision": "20f818f72cacbdc7ea01912788a4b988db029c5e"
+}

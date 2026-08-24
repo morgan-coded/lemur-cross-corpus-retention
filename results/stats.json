@@ -1,0 +1,50 @@
+{
+  "arguana": {
+    "ann_default": "IVF",
+    "corpus_sha256": "ce6733d9d402723ae65d688893577fef5e8195a9b11c2fc1409c3381c588d80a",
+    "docs": 8674,
+    "qrels_rows": 1401,
+    "qrels_sha256": "c21b2b1e6681c8dad1f6c31db5bd030af2d376d5dd3c8bb3c82a08c8f60b4c00",
+    "queries_in_test_qrels": 1401,
+    "tokens": {
+      "cv": 0.5461,
+      "frac_over_180": 0.5301,
+      "mean": 209.06,
+      "median": 187.0,
+      "p95": 410.0,
+      "p99": 619.5400000000009
+    }
+  },
+  "nfcorpus": {
+    "ann_default": "exact",
+    "corpus_sha256": "59914b6af372b5093ad549ee05a14250efebb3f82e583f0d67e0f7bcc7f48719",
+    "docs": 3633,
+    "qrels_rows": 12334,
+    "qrels_sha256": "f8fba6ef3d4dd9c3a242a8ba4ae38276fc3622fce7dcbae764766d564542fd2a",
+    "queries_in_test_qrels": 323,
+    "tokens": {
+      "cv": 0.3828,
+      "frac_over_180": 0.9207,
+      "mean": 358.38,
+      "median": 358.0,
+      "p95": 559.0,
+      "p99": 691.6799999999998
+    }
+  },
+  "scifact": {
+    "ann_default": "IVF",
+    "corpus_sha256": "cf30fea2468ff6237a0ce515c5e7ea28442319e03fd53721b61b7b6a7f4e896a",
+    "docs": 5183,
+    "qrels_rows": 339,
+    "qrels_sha256": "0864bb985e0ca2367ba217977e72004d549054b2b06666ed9d4825ac7c21284c",
+    "queries_in_test_qrels": 300,
+    "tokens": {
+      "cv": 0.4103,
+      "frac_over_180": 0.9126,
+      "mean": 338.19,
+      "median": 317.0,
+      "p95": 568.8999999999996,
+      "p99": 761.7200000000012
+    }
+  }
+}

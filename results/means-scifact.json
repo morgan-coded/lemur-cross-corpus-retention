@@ -1,0 +1,10 @@
+{
+  "corpus": "scifact",
+  "mean_norm": 0.4771782457828522,
+  "mean_sha256": "1592b03920832c2aa29a15bd9423aae055dfc1dbf40438bd68394538d1cf1340",
+  "n_docs": 5183,
+  "n_tokens": 917533,
+  "path": "work/means/scifact.safetensors",
+  "time": "2026-08-23T02:58:23Z",
+  "uncentered_encode": true
+}

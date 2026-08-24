@@ -1,0 +1,35 @@
+{
+  "ann": "default",
+  "ann_effective": "default-ivf",
+  "artifact": "muvera:20,5,16",
+  "cell": "arguana--muvera-20,5,16--default",
+  "corpus": "arguana",
+  "cuda": {
+    "max_allocated_gb": 0.648,
+    "max_reserved_gb": 0.805
+  },
+  "disk_kb": 356219,
+  "encoder": "muvera r20 h5 p16 = 10240 dims",
+  "encoder_class": "Muvera",
+  "encoder_has_center": false,
+  "faiss_components": null,
+  "faiss_index": "IndexIVFFlat nlist=222 nprobe=14",
+  "index_seconds": 41.5,
+  "metrics": {
+    "P_10": 0.0571,
+    "map_cut_10": 0.27225,
+    "ndcg_cut_10": 0.34256,
+    "recall_10": 0.57102
+  },
+  "n_docs": 8674,
+  "n_queries_scored": 1401,
+  "nprobe_config": 14,
+  "nprobe_used": 14,
+  "pooling_class": "LatePooling",
+  "queries_under_limit": 0,
+  "queries_zero_results": 0,
+  "resolved_center": null,
+  "search_seconds": 11.75,
+  "time": "2026-08-23T05:00:40Z",
+  "variant": "default"
+}
