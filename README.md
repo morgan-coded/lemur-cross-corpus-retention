@@ -6,7 +6,7 @@ One general LEMUR artifact trained on a frozen source-mixture draw does not pres
 
 The maintainer's question in [txtai PR 1068](https://github.com/neuml/txtai/pull/1068#discussion_r3006653791) was whether one general LEMUR model could generalize across datasets rather than stay dataset-specific. [Issue 1173](https://github.com/neuml/txtai/issues/1173) turned that into a default-model question. The [LEMUR paper](https://arxiv.org/abs/2601.21853) leaves synthetic and cross-corpus training sets as future work. This pilot tests the narrow first case: one encoder, one declared cross-corpus mixture, then three held-out development corpora.
 
-The comparison uses the implementation and baseline conventions described in the [NeuML LEMUR article](https://huggingface.co/blog/NeuML/txtai-lemur). It asks about transfer, not whether LEMUR works when trained on the target corpus. The per-corpus arm clears MUVERA-10240 on every leg of the matrix at one-fifth the width; what fails is transfer.
+The comparison uses the implementation and baseline conventions described in the [NeuML LEMUR article](https://huggingface.co/blog/NeuML/txtai-lemur). It asks about transfer, not whether LEMUR works when trained on the target corpus. The per-corpus arm clears MUVERA-10240 on every exact-search leg at one-fifth the width; what fails is transfer.
 
 ## Design
 
